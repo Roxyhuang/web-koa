@@ -1,10 +1,8 @@
-const Koa = require('koa');
-const app = new Koa();
-require('babel-register');
+'use strict';
 
-// response
-app.use(async function(ctx) {
-  ctx.body = 'Hello World';
+// npm run dev DO NOT read this file
+
+require('egg').startCluster({
+  baseDir: __dirname,
+  port: process.env.PORT || 7001, // default to 7001
 });
-
-app.listen(3000);
