@@ -350,7 +350,13 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+	<script>
+	  (function(){
+        $.ajax({ url: "http://localhost:7001", context: document.body, success: function(data){
+          console.log(data);
+        }});
+	  })();
+	</script>
 	</body>
 </html>
 
