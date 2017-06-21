@@ -1040,7 +1040,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 50px;
   }
 }
-#fh5co-blog .fh5co-heading h2, #fh5co-contact .fh5co-heading h2 {
+#fh5co-blog .fh5co-heading h2, #fh5co-contact .fh5co-heading h1, #fh5co-contact .fh5co-heading h3{
   font-family: "Satisfy", cursive;
   color: #fff;
 }
